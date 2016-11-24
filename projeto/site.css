@@ -8,6 +8,11 @@ h1, h2 {
 	font-family: "Open Sans Condensed", sans-serif;	
 }
 
+h2 {
+	font-size: 40px;
+	clear: both;
+}
+
 .titulo {
 	background-color: #851944;
 	color: #FFF;
@@ -42,6 +47,13 @@ aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
+	float: right;
+	clear: right;
+	box-sizing: border-box;
+}
+
+img {
+	float: right;
 }
 
 h1 {
@@ -64,6 +76,11 @@ nav a {
 
 main a {
     color: #851944;
+}
+
+main {
+	float: left;
+	width: 60%;
 }
 
 aside a {
@@ -126,4 +143,16 @@ article {
 	text-align: center;
 	background-color: #E6E7E8;
 	display: block;
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+footer {
+	clear: both;
 }
