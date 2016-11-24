@@ -8,7 +8,12 @@ h1, h2 {
 	font-family: "Open Sans Condensed", sans-serif;	
 }
 
-main h1 {
+h2 {
+	font-size: 40px;
+	clear: both;
+}
+
+.titulo {
 	background-color: #851944;
 	color: #FFF;
 	text-align: center;
@@ -18,7 +23,7 @@ main h1 {
 	font-size: 60px;
 }
 
-main h2 {
+.subtitulo {
 	font-size: 30px;
 }
 
@@ -42,6 +47,20 @@ aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
+	float: right;
+	clear: right;
+	box-sizing: border-box;
+	width: 20%;
+}
+
+img {
+	width: 20%;
+	float: right;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-transform: uppercase;
 }
 
 aside h1 {
@@ -49,7 +68,7 @@ aside h1 {
 	padding-bottom: 25px;
 }
 
-footer {
+.rodape-pagina {
 	background-color: #000;
 	color: #F2FFFC;
 }
@@ -62,9 +81,19 @@ main a {
     color: #851944;
 }
 
+main {
+	float: left;
+	width: 80%;
+}
+
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside {
+	border: 10px solid black;
+	box-sizing: border-box;
 }
 
 aside, footer {
@@ -84,4 +113,54 @@ strong {
 
 em {
 	font-style: italic;
+}
+
+.redes-sociais li {
+	display: inline-block;
+}
+
+.redes-sociais a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
+}
+
+article {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.leia-mais {
+	font-size: 24px;
+	padding: 8px;
+	margin: 16px;
+	text-align: center;
+	background-color: #E6E7E8;
+	display: block;
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
+footer {
+	clear: both;
 }
