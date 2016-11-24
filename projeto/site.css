@@ -44,6 +44,10 @@ aside {
 	text-align: center;
 }
 
+h1 {
+	text-transform: uppercase;
+}
+
 aside h1 {
 	font-size: 30px;
 	padding-bottom: 25px;
@@ -88,6 +92,25 @@ em {
 
 .redes-sociais li {
 	display: inline-block;
+}
+
+.redes-sociais a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter {
+	background-image: url(twitter.png);
+}
+
+.linkedin {
+	background-image: url(linkedin.png);
 }
 
 article {
