@@ -50,10 +50,13 @@ aside {
 	float: right;
 	clear: right;
 	box-sizing: border-box;
+	width: 20%;
 }
 
 img {
+	width: 20%;
 	float: right;
+	box-sizing: border-box;
 }
 
 h1 {
@@ -80,12 +83,17 @@ main a {
 
 main {
 	float: left;
-	width: 60%;
+	width: 80%;
 }
 
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+}
+
+aside {
+	border: 10px solid black;
+	box-sizing: border-box;
 }
 
 aside, footer {
