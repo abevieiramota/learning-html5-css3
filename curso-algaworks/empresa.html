@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<title>Sobre nós</title>
+	<link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script>
+		var oi = false;
+		$(document).ready(function() {
+			$('p').mouseover(function(event) {
+				if(oi) {
+					$('p').addClass('destaque');
+					oi = false;
+				} else {
+					$('p').removeClass('destaque');
+					oi = true;
+				}
+			})
+		});
+	</script>
+	<h1>Sobre a nossa empresa</h1>
+	<p id="first-paragraph">Estamos no mercado desde <strong>2014</strong>.</p>
+	<p id="super-strong">Nossa missão é <strong>transformar</strong> a vida de milhares de alunos.</p>
+	<p class="destaque">Por isso, estudo com a gente!</p>
+</body>
+</html>

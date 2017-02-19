@@ -1,0 +1,28 @@
+h1, #first-paragraph { 
+	color: blue; 
+}
+
+p { 
+	color: red;
+	font-family: Arial;
+}
+
+body strong {
+	color: pink;
+}
+
+#super-strong strong {
+	color: black;
+}
+
+strong { 
+	color: green; 
+}
+
+.destaque {
+	color: yellow;
+}
+
+/*
+comentário
+*/
