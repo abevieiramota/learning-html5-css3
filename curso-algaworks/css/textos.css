@@ -1,0 +1,13 @@
+.nome {
+	color: #f00;
+	font-family: serif, "Trebuchet MS", Arial;
+	font-size: 80px;
+	font-style: italic;
+	text-align: right;
+}
+
+.segmento {
+	font: italic bold 50px "Trebuchet MS";
+	text-decoration: underline;
+	text-align: right;
+}
