@@ -1,0 +1,47 @@
+body {
+	font-size: 32px;
+	margin: 0;
+}
+
+.frase1, .frase2, .referencia {
+	width: 500px;
+	text-align: justify;
+	background-color: yellow;
+}
+
+p {
+	margin: 10px;
+}
+
+.referencia {
+	background-color: blue;
+	height: 20px;
+}
+
+.frase1 {
+	padding: 20px;
+	border: 10px solid red;
+}
+
+#border {
+	background-color: red;
+	margin: 100px;
+	width: 500px;
+}
+
+#padding {
+	background-color: orange;
+	width: 300px;
+	padding: 20px;
+	margin: 50px;
+}
+
+#content {
+	background-color: green;
+	width: 200px;
+	padding: 20px;
+}
+
+* {
+	box-sizing: border-box;
+}
